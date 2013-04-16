@@ -1,0 +1,2 @@
+g95 -O3 -o mercury6.2jh mercury6.2jh.for
+

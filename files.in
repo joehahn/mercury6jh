@@ -1,0 +1,10 @@
+ planets.in
+ particles.in
+ param.in
+ xv.out
+ ce.out
+ info.out
+ planets.dmp
+ particles.dmp
+ param.dmp
+ restart.dmp

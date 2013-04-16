@@ -1,0 +1,37 @@
+)O+_06 Integration parameters  (WARNING: Do not delete this line!!)
+) Lines beginning with `)' are ignored.
+)---------------------------------------------------------------------
+) Important integration parameters:
+)---------------------------------------------------------------------
+ algorithm (MVS, BS, BS2, RADAU, HYBRID etc) = hybrid
+ start time (days)= 0.d0
+ stop time (days) = 365.25d4
+ output interval (days) = 365.25d1
+ timestep (days) = 0.36525d0
+ accuracy parameter=1.0d-12
+)---------------------------------------------------------------------
+) Integration options:
+)---------------------------------------------------------------------
+ stop integration after a close encounter = no
+ allow collisions to occur = yes
+ include collisional fragmentation = no
+ express time in days or years = years
+ express time relative to integration start time = yes
+ output precision = high
+ global parameter1 = 0.d0
+ global parameter2 = 0.d0
+ include user-defined force = no
+)---------------------------------------------------------------------
+) These parameters do not need to be adjusted often:
+)---------------------------------------------------------------------
+ ejection distance (AU)= 10000.0
+ radius of central body (AU) = 0.1
+ central mass (solar) = 1.0
+ central J2 = 0
+ central J4 = 0
+ central J6 = 0
+ global parameter3 = 0.d0
+ global parameter4 = 0.d0
+ Hybrid integrator changeover (Hill radii) = 3.0
+ number of timesteps between data dumps = 1000000
+ number of timesteps between periodic effects = 10000
